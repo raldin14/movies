@@ -1,0 +1,10 @@
+namespace MovieAPI.DTOs;
+
+public class MovieActorDTO
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string picture { get; set; }
+    public string character { get; set; }
+    public int order { get; set; }
+}
